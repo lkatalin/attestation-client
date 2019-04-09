@@ -1,0 +1,15 @@
+[package]
+name = "client-report"
+version = "0.1.0"
+authors = ["LKatalin"]
+edition = "2018"
+
+[dependencies]
+sgx-isa = { version = "0.2", features = ["sgxstd"] }
+
+# RustCrypto, used for CMAC
+cmac = "0.2.0"
+crypto-mac = "0.7.0"
+aes = "0.3.2"
+block-cipher-trait = "0.6.2"
+generic-array = "0.12"
