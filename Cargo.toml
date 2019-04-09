@@ -1,0 +1,8 @@
+[package]
+name = "client-report"
+version = "0.1.0"
+authors = ["LKatalin"]
+edition = "2018"
+
+[dependencies]
+sgx-isa = { version = "0.2", features = ["sgxstd"] }
