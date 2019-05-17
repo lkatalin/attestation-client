@@ -6,6 +6,7 @@ edition = "2018"
 
 [dependencies]
 sgx-isa = { version = "0.2", features = ["sgxstd"] }
+dcap-ql = "0.1.0"
 
 # RustCrypto, used for CMAC
 cmac = "0.2.0"
